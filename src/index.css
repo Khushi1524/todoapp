@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,128 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+ 
+  color: #fff;
+  font-size: 30px;
+  height: 200px;
+  background: rgb(74, 141, 232);
+  background: linear-gradient(117deg, rgba(74, 141, 232, 0.8128501400560224) 40%, rgba(198, 149, 236, 1) 70%);
+}
+
+.inputbx {
+  margin-top: 10px;
+  background-color: #fff;
+  width: 900px;
+  border-radius: 20px;
+  height: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputbx input {
+  width: 450px;
+  height: 42px;
+  margin-top: 25px;
+  border-radius: 20px;
+  border-style: none;
+  padding: 8px;
+  border: 1px solid blue;
+  font-size: 18px;
+  
+}
+
+.inputbx input:hover{
+  width: 457px;
+  height: 45px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add button {
+  color: black;
+  font-size: 18px;
+  width: 200px;
+  height: 35px;
+  padding: 8px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: orange;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 71);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tasks {
+  background-color: #fff;
+  width: 900px;
+  height: auto;
+  margin-top: 60px;
+  border-radius: 20px;
+  min-height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tasks img {
+  width: 500px;
+  margin: 100px;
+  margin-left: 130px;
+}
+
+.newtask{
+  padding-top: 20px;
+}
+
+.newtask li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  list-style: square;
+  padding: 8px;
+  width: 770px;
+  padding-left: 40px;
+  margin: 20px; 
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.listbtn {
+  padding-right: 35px;
+}
+
+
+.listbtn button {
+  width: 120px;
+  padding: 10px 8px;
+  font-size: 20px;
+  border-radius: 11px;
+  border-style: none;
+}
+
+.listbtn #btn1 {
+  background-color: #c195fa;
+  margin-right: 10px;
+}
+
+.listbtn #btn1:hover{
+  background-color: #d0b7f0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.listbtn #btn2 {
+  background-color: rgb(255, 70, 70);
+}
+
+.listbtn #btn2:hover {
+  background-color: rgb(247, 114, 114);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
